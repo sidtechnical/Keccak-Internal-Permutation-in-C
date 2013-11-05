@@ -10,13 +10,13 @@ The implementation of only internal permutation in C language is doen here.
 
 The <u>"Keccak Hash Function"</u> and  <u>"Encryption using the Keccak sponge construction"</u> will be available in other repositories soon.
 
-More information about the psuedo code can be found in,
+More information about the psuedo code can be found in,<br>
 http://keccak.noekeon.org/
 
-Description about the implementation can be found in,
+Description about the implementation can be found in,<br>
 http://keccak.noekeon.org/Keccak-implementation-3.2.pdf
 
-test vectors provided by the designers for debugging. One of them is used in the file KeccakF1600_driver.c . 
+test vectors provided by the designers for debugging. One of them is used in the file KeccakF1600_driver.c . <br>
 https://github.com/gvanas/KeccakCodePackage/blob/master/TestVectors/KeccakF-1600-IntermediateValues.txt
 
 
