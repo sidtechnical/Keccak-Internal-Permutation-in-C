@@ -16,13 +16,7 @@ Android opearing system — A Chalmers project" by Pierre Karpman, Thibault Verd
 #include "stdlib.h"
 #include "KeccakF1600.h"
 
-/*Function Definations */
-unsigned long** rounds(unsigned long**,unsigned long);
-unsigned long** theta_step(unsigned long**);
-unsigned long** pi_step(unsigned long**);
-unsigned long** x_step(unsigned long** ,unsigned long**);
-unsigned long rot(unsigned long, unsigned int);
- 
+
 
 //The offset constants
 const char r[5][5]={{0,36,3,41,18},{1,44,10,45,2},{62,6,43,15,61},{28,55,25,21,56},{27,20,39,8,14}};
