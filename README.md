@@ -24,7 +24,7 @@ https://github.com/gvanas/KeccakCodePackage/blob/master/TestVectors/KeccakF-1600
 </br>
 ================================
 
-<b>Usage</b></br>
+<b>Usage</b><br>
 This program is written in a way that tests whether the implementation is correct. However the subject of interest in this repository will just be the .c File and ofcourse the header files which has all the definations.
 
 After clonig the repository, Follow the commands below in same order.
