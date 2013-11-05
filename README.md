@@ -34,7 +34,7 @@ make
 
 ================================
 
-NOTE: 
+<b>NOTE:</b> 
 <ul><li>Tweak the C code and when you run above commands, the output should be PASS.</li>
 <li> Depending on your system's architecture, you might get FAIL. Explaination about the memory usage by this program and architectural dependency is beyond the scope of this work.
 <li> Segmentation Faults can be debugged using Valgrind http://valgrind.org/ </li> </ul>
