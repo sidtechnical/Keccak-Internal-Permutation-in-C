@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Keccak-internal-permutation-in-c by sidtechnical</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/sidtechnical/Keccak-Internal-Permutation-in-C">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/sidtechnical/Keccak-Internal-Permutation-in-C/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/sidtechnical/Keccak-Internal-Permutation-in-C/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Keccak-internal-permutation-in-c</h1>
+          <p>Implementation of Keccak internal permutation in C</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/sidtechnical">sidtechnical</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a name="keccak-internal-permutation-in-c" class="anchor" href="#keccak-internal-permutation-in-c"><span class="octicon octicon-link"></span></a>Keccak-Internal-Permutation-in-C</h1>
+
+<p><b>Implementation of Keccak internal permutation in C</b></p>
+
+<p>Keccak the cryptographic sponge function family called Keccak, which has been selected by NIST to become the new SHA-3 standard. The sponge function is a generalization of the concept of cryptographic hash function with infinite output and 
+can perform quasi all symmetric cryptographic functions, from hashing to pseudo-random number generation to authenticated encryption.</p>
+
+<p>The implementation of only internal permutation in C language is doen here. </p>
+
+<p>The "Keccak Hash Function" and  "Encryption using the Keccak sponge construction" will be available in other repositories soon.</p>
+
+<p>More information about the psuedo code can be found in,<br><a href="http://keccak.noekeon.org/">http://keccak.noekeon.org/</a></p>
+
+<p>Description about the implementation can be found in,<br><a href="http://keccak.noekeon.org/Keccak-implementation-3.2.pdf">http://keccak.noekeon.org/Keccak-implementation-3.2.pdf</a></p>
+
+<p>Test vectors provided by the designers for debugging. One of them is used in the file KeccakF1600_driver.c . <br><a href="https://github.com/gvanas/KeccakCodePackage/blob/master/TestVectors/KeccakF-1600-IntermediateValues.txt">https://github.com/gvanas/KeccakCodePackage/blob/master/TestVectors/KeccakF-1600-IntermediateValues.txt</a></p>
+
+<h1></h1>
+
+<p><b>Usage</b><br>
+This program is written in a way that tests whether the implementation is correct. However the subject of interest in this repository will just be the .c File and ofcourse the header files which has all the definations.</p>
+
+<p>After clonig the repository, Follow the commands below in same order.
+cd 
+make 
+./KeccakF1600_driver</p>
+
+<h1></h1>
+
+<p><b>NOTE:</b> </p>
+
+<ul>
+<li>Tweak the C code and when you run above commands, the output should be PASS.</li>
+<li> Depending on your system's architecture, you might get FAIL. Explaination about the memory usage by this program and architectural dependency is beyond the scope of this work.
+</li>
+<li> Segmentation Faults can be debugged using Valgrind http://valgrind.org/ </li> </ul>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
